@@ -266,7 +266,58 @@
       width: 11rem;
       border-radius: 40px;
       background: #00656b;
-      color: #F5F5F5; }
+      color: #F5F5F5;
+      position: relative; }
+      .dashboard .dashboard-nav .profile .notifi__box {
+        position: absolute;
+        top: 36px;
+        left: -140px;
+        list-style: none;
+        border: none;
+        display: none; }
+        .dashboard .dashboard-nav .profile .notifi__box li {
+          border: 0.5px solid #0b9ca3;
+          width: 25rem;
+          padding: 1rem;
+          background: #eee; }
+          .dashboard .dashboard-nav .profile .notifi__box li a {
+            text-align: left;
+            text-decoration: none;
+            padding: 0.5rem 2rem;
+            border-radius: 0;
+            background: #0b9ca3;
+            color: black;
+            width: auto;
+            height: auto;
+            font-size: 1.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-align: center;
+            border-bottom: 0.2px solid white; }
+          .dashboard .dashboard-nav .profile .notifi__box li p {
+            background: #0b9ca3;
+            padding: 0rem 2rem;
+            padding-bottom: 0.5rem;
+            font-size: 1.2rem;
+            color: white;
+            text-align: center; }
+        .dashboard .dashboard-nav .profile .notifi__box a {
+          text-align: left;
+          text-decoration: none;
+          padding: 0.5rem 4rem;
+          border-radius: 0;
+          background: #0b9ca3;
+          color: black;
+          width: auto;
+          height: auto;
+          font-size: 1rem;
+          font-weight: 400;
+          border-bottom: 0.2px solid white;
+          width: 25rem;
+          border: 0.5px solid #0b9ca3;
+          text-align: center;
+          display: block;
+          border: 0.5 solid white; }
     .dashboard .dashboard-nav .profile__img {
       border-radius: 50%;
       overflow: hidden;
@@ -321,8 +372,7 @@
     .dashboard .dashboard-sidebar .sidebar-menu .sibar-menu-sub {
       list-style: none;
       display: none;
-      width: 100%;
-      transition: 0.5s; }
+      width: 100%; }
       .dashboard .dashboard-sidebar .sidebar-menu .sibar-menu-sub li {
         border-bottom: 0.1px solid WHITE;
         display: flex;

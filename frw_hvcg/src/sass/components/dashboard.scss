@@ -326,6 +326,73 @@
             border-radius: 40px;
             background: #00656b;
             color: #F5F5F5;
+            position: relative;
+            .notifi__box{
+                position: absolute;
+                top: 36px;
+                left: -140px;
+                list-style: none;
+                border: none;
+                display: none;
+                // border: 0.5px solid white;
+                // background: black;
+                li{
+                    border: 0.5px solid #0b9ca3;
+                    width: 25rem;
+                    padding: 1rem;
+                    background: #eee;
+                    a{
+                        text-align: left;
+                        text-decoration: none;
+                        padding: 0.5rem 2rem;
+                        border-radius: 0; 
+                        background: #0b9ca3;
+                        color: black;
+                        width: auto;
+                        height: auto;
+                        font-size: 1.6rem;
+                        font-weight: 700;
+                        // border-radius: 5px;
+                        text-transform: uppercase;
+                        text-align: center;
+                        border-bottom: 0.2px solid white;
+                    }
+                    p{
+                        background:#0b9ca3;
+                        padding: 0rem 2rem;
+                        padding-bottom: 0.5rem;
+                        font-size: 1.2rem;
+                        color: white;
+                        text-align: center;
+                    }
+                }
+                a{
+                    text-align: left;
+                    text-decoration: none;
+                    padding: 0.5rem 4rem;
+                    border-radius: 0; 
+                    background: #0b9ca3;
+                    color: black;
+                    width: auto;
+                    height: auto;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    // border-radius: 5px;
+                    border-bottom: 0.2px solid white;
+                    width: 25rem;
+                    border: 0.5px solid #0b9ca3;
+                    text-align: center;
+                    display: block;
+                    border: 0.5 solid white;
+                }
+                // i{
+                //     position: absolute;
+                //     top: -16px;
+                //     left: 180rem;
+                //     color: #0b9ca3;
+                //     font-size: 2.6rem
+                // }
+            }
         }
         .profile__img{
             border-radius: 50%;
@@ -408,7 +475,7 @@
                 list-style: none;
                 display: none;
                 width: 100%;
-                transition: 0.5s;
+                // transition: 0.5s;
                 li{
                     border-bottom: 0.1px solid WHITE;
                     display: flex;
